@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Recipe Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    <header class="heading">
+        <h1>Interactive Recipe Generator</h1>
+    </header>
+    <main>
+        <section id="ingredient-input">
+            <h2>Enter Your Ingredients</h2>
+            <form id="ingredient-form">
+                <label for="ingredients">Ingredients:</label>
+                <input type="text" id="ingredients" name="ingredients" placeholder="Enter ingredients separated by commas">
+                <button type="submit">Generate Recipes</button>
+            </form>
+        </section>
+        <section id="recipe-results">
+            <h2>Recipe Suggestions</h2>
+            <div id="recipe-list">
+                <!-- Recipe cards will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+    <!-- <footer>
+        <p>Created by Shivam</p>
+    </footer> -->
+    <script src="script.js"></script>
+</body>
+</html>
