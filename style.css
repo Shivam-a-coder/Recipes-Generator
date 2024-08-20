@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8197B7;
+}
+.heading{
+    background-color: #333;
+    color: #fff;
+    /* text-align: center; */
+    padding: 0.5rem 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+#ingredient-input {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, button {
+    margin-bottom: 1rem;
+}
+
+input, button {
+    padding: 0.5rem;
+}
+
+#recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.recipe-card h3 {
+    margin-top: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
